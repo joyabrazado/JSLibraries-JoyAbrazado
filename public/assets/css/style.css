@@ -18,9 +18,11 @@ h1 {
 }
 
 header {
+    position: relative;
     text-align: center;
     padding: 20px;
     background-color: #f0ccbf;
+    z-index: 1;
 }
 
 main {
@@ -87,7 +89,23 @@ p {
 
 /* FOOTER */
 footer {
+    position: relative;
     background-color: #f0ccbf;
     text-align: center;
     padding: 10px;
+    z-index: 1;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+    z-index: 1;
+}
+
+h1, p {
+    position: relative; 
+    z-index: 2;
 }

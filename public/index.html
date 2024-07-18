@@ -20,8 +20,9 @@
 
 <body>
     <!-- HEADER -->
-    <header>
+    <header id="header">
         <h1>Cozy Nook</h1>
+        <canvas id="headerCanvas"></canvas>
     </header>
 
     <!-- MAIN -->
@@ -48,7 +49,7 @@
         </section>
 
         <!-- GALLERY -->
-         <section id="gallery">
+        <section id="gallery">
             <div class="grid-item"><img src="assets/img/g1.jpg" alt="Gallery Image 1"></div>
             <div class="grid-item"><img src="assets/img/g2.jpg" alt="Gallery Image 2"></div>
             <div class="grid-item"><img src="assets/img/g3.jpg" alt="Gallery Image 3"></div>
@@ -57,19 +58,22 @@
             <div class="grid-item"><img src="assets/img/g6.jpg" alt="Gallery Image 6"></div>
             <div class="grid-item"><img src="assets/img/g7.jpg" alt="Gallery Image 7"></div>
             <div class="grid-item"><img src="assets/img/g8.jpg" alt="Gallery Image 8"></div>
-         </section>
+        </section>
     </main>
 
     <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2024 Cozy Nook Furniture</p>
-      </footer>
+    <footer id="#footer">
+        <p>&copy; 2024 Cozy Nook</p>
+        <canvas id="footerCanvas"></canvas>
+    </footer>
 
     <!-- JS -->
     <!-- glide -->
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <!-- animejs -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <!-- granim -->
+    <script src="https://cdn.jsdelivr.net/npm/granim/dist/granim.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 
