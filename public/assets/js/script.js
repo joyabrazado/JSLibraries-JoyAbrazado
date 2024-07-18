@@ -39,7 +39,7 @@ var headerGradient = new Granim({
                 ['#FFDAB9', '#F4C2C2'],
                 ['#DCAE96', '#FFF5EE']
             ],
-            transitionSpeed: 15000
+            transitionSpeed: 12000
         }
     }
 });
@@ -56,7 +56,7 @@ var footerGradient = new Granim({
                 ['#FFDAB9', '#F4C2C2'],
                 ['#DCAE96', '#FFF5EE']
             ],
-            transitionSpeed: 15000
+            transitionSpeed: 12000
         }
     }
 });
