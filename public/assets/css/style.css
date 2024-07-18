@@ -61,4 +61,33 @@ p {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
+    margin-bottom: 16px;
+}
+
+/* GALLERY */
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.grid-item {
+    overflow: hidden;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.grid-item img:hover {
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+footer {
+    background-color: #f0ccbf;
+    text-align: center;
+    padding: 10px;
 }
