@@ -16,13 +16,13 @@ anime.timeline({
         targets: '#content h2',
         opacity: [0, 1],
         translateY: [-50, 0],
-        duration: 800
+        duration: 1000
     })
     .add({
         targets: '#content p',
         opacity: [0, 1],
         translateY: [50, 0],
-        duration: 800,
+        duration: 1000,
         offset: '-=400'
     });
 
