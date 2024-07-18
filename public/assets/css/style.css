@@ -19,5 +19,24 @@ h1 {
 header {
   text-align: center;
   padding: 20px;
-  background-color: #FFC0CB;
+  background-color: #f0ccbf;
+}
+
+/* slider */
+.slider {
+    margin: 20px;
+    overflow: hidden; /* Ensure no overflow from slides */
+}
+
+.glide__slide {
+    position: relative;
+    height: 40vh; /* Adjust slide height as needed */
+    overflow: hidden; /* Hide overflow within slide */
+}
+
+.glide__slide img {
+    width: 100%; /* Ensure image covers full width of slide */
+    height: 100%; /* Ensure image covers full height of slide */
+    object-fit: cover; /* Ensure the image covers the entire slide */
+    display: block; /* Ensure the image behaves as a block element */
 }
