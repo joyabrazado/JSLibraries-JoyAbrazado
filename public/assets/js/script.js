@@ -60,3 +60,17 @@ var footerGradient = new Granim({
         }
     }
 });
+
+// AOS
+document.addEventListener('DOMContentLoaded', function () {
+    AOS.init();
+});
+
+document.querySelectorAll('#gallery .grid-item').forEach(function (item, index) {
+    item.setAttribute('data-aos', 'fade-up');
+    item.setAttribute('data-aos-duration', '800');
+    item.setAttribute('data-aos-delay', 50 * index); 
+});
+
+
+AOS.init();
